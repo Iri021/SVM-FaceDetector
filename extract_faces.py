@@ -30,9 +30,8 @@ def extract_face(filename, required_size=(160, 160)):
 	face_array = asarray(image)
 	return face_array
 
-#Uncomment this to show extracted faces in a plot
 # # specify folder to plot
-# folder = '5-celebrity-faces-dataset/train/ben_afflek/'
+# folder = 'dataset/train/eri/'
 # i = 1
 # # enumerate files
 # for filename in listdir(folder):
